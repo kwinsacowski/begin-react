@@ -1,13 +1,17 @@
-import Toggle from "./components/Toggle.jsx";
-import Form from "./components/Form.jsx";
-import Likes from "./components/Likes.jsx";
-import TodoItem from "./components/TodoItem.jsx";
+import Colors from "./components/Colors.jsx";
+import Fruits from "./components/Fruits.jsx";
+import Cities from "./components/Cities.jsx";
 
 function App() {
   return (
-    <>
-    <TodoItem />
-    </>
+    <div>
+    <h1>Colors</h1>
+    <Colors />
+    <h1>Fruits</h1>
+    <Fruits />
+    <h1>Cities By Country</h1>
+    <Cities />
+    </div>
   );
 }
 
